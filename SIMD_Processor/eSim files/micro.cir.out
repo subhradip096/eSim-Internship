@@ -1,0 +1,80 @@
+* c:\users\subhradip\esim-workspace\micro\micro.cir
+
+* u2  gnd gnd gnd gnd gnd net-_u2-pad6_ gnd gnd net-_u1-pad13_ net-_u1-pad14_ net-_u1-pad15_ net-_u1-pad16_ net-_u1-pad17_ net-_u1-pad18_ net-_u1-pad19_ net-_u1-pad20_ adc_bridge_8
+* u3  gnd gnd gnd gnd gnd gnd gnd gnd net-_u1-pad21_ net-_u1-pad22_ net-_u1-pad23_ net-_u1-pad24_ net-_u1-pad25_ net-_u1-pad26_ net-_u1-pad27_ net-_u1-pad28_ adc_bridge_8
+* u4  gnd gnd gnd gnd net-_u2-pad6_ gnd gnd gnd net-_u1-pad29_ net-_u1-pad30_ net-_u1-pad31_ net-_u1-pad32_ net-_u1-pad33_ net-_u1-pad34_ net-_u1-pad35_ net-_u1-pad36_ adc_bridge_8
+* u5  gnd gnd gnd gnd gnd gnd gnd gnd net-_u1-pad37_ net-_u1-pad38_ net-_u1-pad39_ net-_u1-pad40_ net-_u1-pad41_ net-_u1-pad42_ net-_u1-pad43_ net-_u1-pad44_ adc_bridge_8
+v1 net-_u2-pad6_ gnd  dc 5
+* u11  clk gnd gnd gnd gnd gnd gnd gnd net-_u1-pad1_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ adc_bridge_8
+* u12  gnd gnd gnd net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ adc_bridge_3
+v2  clk gnd pulse(0 1.8 0.1n 0.1n 0.1n 50n 100n)
+* u9  net-_u1-pad101_ o0 dac_bridge_1
+* u13  o0 plot_v1
+v3  net-_u14-pad1_ gnd pulse(0 1.8 0.1n 0.1n 0.1n 10n 1000m)
+* u14  net-_u14-pad1_ net-_u1-pad2_ adc_bridge_1
+* u15  clk plot_v1
+* u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ net-_u1-pad13_ net-_u1-pad14_ net-_u1-pad15_ net-_u1-pad16_ net-_u1-pad17_ net-_u1-pad18_ net-_u1-pad19_ net-_u1-pad20_ net-_u1-pad21_ net-_u1-pad22_ net-_u1-pad23_ net-_u1-pad24_ net-_u1-pad25_ net-_u1-pad26_ net-_u1-pad27_ net-_u1-pad28_ net-_u1-pad29_ net-_u1-pad30_ net-_u1-pad31_ net-_u1-pad32_ net-_u1-pad33_ net-_u1-pad34_ net-_u1-pad35_ net-_u1-pad36_ net-_u1-pad37_ net-_u1-pad38_ net-_u1-pad39_ net-_u1-pad40_ net-_u1-pad41_ net-_u1-pad42_ net-_u1-pad43_ net-_u1-pad44_ net-_u1-pad45_ net-_u1-pad46_ net-_u1-pad47_ net-_u1-pad48_ net-_u1-pad49_ net-_u1-pad50_ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? net-_u1-pad86_ net-_u1-pad87_ net-_u1-pad88_ net-_u1-pad89_ net-_u1-pad90_ net-_u1-pad91_ net-_u1-pad92_ net-_u1-pad93_ net-_u1-pad94_ net-_u1-pad95_ net-_u1-pad96_ net-_u1-pad97_ net-_u1-pad98_ net-_u1-pad99_ net-_u1-pad100_ net-_u1-pad101_ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? fossee_proc
+* u6  gnd gnd gnd gnd net-_u2-pad6_ net-_u2-pad6_ net-_u1-pad45_ net-_u1-pad46_ net-_u1-pad47_ net-_u1-pad48_ net-_u1-pad49_ net-_u1-pad50_ adc_bridge_6
+* u16  net-_u1-pad93_ net-_u1-pad94_ net-_u1-pad95_ net-_u1-pad96_ net-_u1-pad97_ net-_u1-pad98_ net-_u1-pad99_ net-_u1-pad100_ o8 o7 o6 o5 o4 o3 o2 o1 dac_bridge_8
+* u10  net-_u1-pad86_ net-_u1-pad87_ net-_u1-pad88_ net-_u1-pad89_ net-_u1-pad90_ net-_u1-pad91_ net-_u1-pad92_ o15 o14 o13 o12 o11 o10 o9 dac_bridge_7
+* u17  o1 plot_v1
+* u18  o2 plot_v1
+* u19  o3 plot_v1
+* u21  o4 plot_v1
+* u22  o5 plot_v1
+* u20  o6 plot_v1
+* u27  o7 plot_v1
+* u28  o8 plot_v1
+* u23  o9 plot_v1
+* u24  o10 plot_v1
+* u26  o11 plot_v1
+* u25  o12 plot_v1
+* u29  o13 plot_v1
+* u7  o14 plot_v1
+* u8  o15 plot_v1
+a1 [gnd gnd gnd gnd gnd net-_u2-pad6_ gnd gnd ] [net-_u1-pad13_ net-_u1-pad14_ net-_u1-pad15_ net-_u1-pad16_ net-_u1-pad17_ net-_u1-pad18_ net-_u1-pad19_ net-_u1-pad20_ ] u2
+a2 [gnd gnd gnd gnd gnd gnd gnd gnd ] [net-_u1-pad21_ net-_u1-pad22_ net-_u1-pad23_ net-_u1-pad24_ net-_u1-pad25_ net-_u1-pad26_ net-_u1-pad27_ net-_u1-pad28_ ] u3
+a3 [gnd gnd gnd gnd net-_u2-pad6_ gnd gnd gnd ] [net-_u1-pad29_ net-_u1-pad30_ net-_u1-pad31_ net-_u1-pad32_ net-_u1-pad33_ net-_u1-pad34_ net-_u1-pad35_ net-_u1-pad36_ ] u4
+a4 [gnd gnd gnd gnd gnd gnd gnd gnd ] [net-_u1-pad37_ net-_u1-pad38_ net-_u1-pad39_ net-_u1-pad40_ net-_u1-pad41_ net-_u1-pad42_ net-_u1-pad43_ net-_u1-pad44_ ] u5
+a5 [clk gnd gnd gnd gnd gnd gnd gnd ] [net-_u1-pad1_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ ] u11
+a6 [gnd gnd gnd ] [net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ ] u12
+a7 [net-_u1-pad101_ ] [o0 ] u9
+a8 [net-_u14-pad1_ ] [net-_u1-pad2_ ] u14
+a9 [net-_u1-pad1_ ] [net-_u1-pad2_ ] [net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ net-_u1-pad13_ net-_u1-pad14_ net-_u1-pad15_ net-_u1-pad16_ net-_u1-pad17_ net-_u1-pad18_ ] [net-_u1-pad19_ net-_u1-pad20_ net-_u1-pad21_ net-_u1-pad22_ net-_u1-pad23_ net-_u1-pad24_ net-_u1-pad25_ net-_u1-pad26_ net-_u1-pad27_ net-_u1-pad28_ net-_u1-pad29_ net-_u1-pad30_ net-_u1-pad31_ net-_u1-pad32_ net-_u1-pad33_ net-_u1-pad34_ ] [net-_u1-pad35_ net-_u1-pad36_ net-_u1-pad37_ net-_u1-pad38_ net-_u1-pad39_ net-_u1-pad40_ net-_u1-pad41_ net-_u1-pad42_ net-_u1-pad43_ net-_u1-pad44_ net-_u1-pad45_ net-_u1-pad46_ net-_u1-pad47_ net-_u1-pad48_ net-_u1-pad49_ net-_u1-pad50_ ] [? ] [? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ] [? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ] [net-_u1-pad86_ net-_u1-pad87_ net-_u1-pad88_ net-_u1-pad89_ net-_u1-pad90_ net-_u1-pad91_ net-_u1-pad92_ net-_u1-pad93_ net-_u1-pad94_ net-_u1-pad95_ net-_u1-pad96_ net-_u1-pad97_ net-_u1-pad98_ net-_u1-pad99_ net-_u1-pad100_ net-_u1-pad101_ ] [? ? ? ? ? ? ? ? ? ? ] [? ? ? ? ? ? ? ? ? ? ] [? ] [? ] u1
+a10 [gnd gnd gnd gnd net-_u2-pad6_ net-_u2-pad6_ ] [net-_u1-pad45_ net-_u1-pad46_ net-_u1-pad47_ net-_u1-pad48_ net-_u1-pad49_ net-_u1-pad50_ ] u6
+a11 [net-_u1-pad93_ net-_u1-pad94_ net-_u1-pad95_ net-_u1-pad96_ net-_u1-pad97_ net-_u1-pad98_ net-_u1-pad99_ net-_u1-pad100_ ] [o8 o7 o6 o5 o4 o3 o2 o1 ] u16
+a12 [net-_u1-pad86_ net-_u1-pad87_ net-_u1-pad88_ net-_u1-pad89_ net-_u1-pad90_ net-_u1-pad91_ net-_u1-pad92_ ] [o15 o14 o13 o12 o11 o10 o9 ] u10
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u2 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u3 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u4 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u5 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u11 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_3, NgSpice Name: adc_bridge
+.model u12 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u9 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u14 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             fossee_proc, NgSpice Name: fossee_proc
+.model u1 fossee_proc(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_6, NgSpice Name: adc_bridge
+.model u6 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u16 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_7, NgSpice Name: dac_bridge
+.model u10 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+.tran 1e-06 10e-06 0e-06
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot  v(clk) v(o0)+10 v(o1)+20 v(o2)+30 v(o3)+40 v(o4)+50 v(o5)+60 v(o6)+70 v(o7)+80 v(o8)+90 v(o9)+100  v(o10)+110 v(o11)+120 v(o12)+130 v(o13)+140 v(o14)+150 v(o15)+160
+.endc
+.end
