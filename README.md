@@ -1,6 +1,6 @@
 # eSim-Internship
 
-FOSSEE (Free/Libre and Open Source Software for Education) is a project part of the National Mission on Education through Information and Communication Technology (ICT), Ministry of Human Resource Development (MHRD), Government of India. FOSSEE has developed various open source tools and promotes the use of
+FOSSEE (Free/Libre and Open Source Software for Education) is a project part of the National Mission on Education through Information and Communication Technology (ICT), Ministry of Human Resource Development (MHRD), Government of India. FOSSEE has developed various open source tools and promotes the use of
 these tools in improving the quality of education and helping every individual avail these sources free of cost. The softwares is being developed in such a way that it
 can stay relevant with respect to the commercial softwares.
 
